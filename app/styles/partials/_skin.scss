@@ -1,0 +1,15 @@
+@import "compass/css3";
+@include font-face("Kelvetica", font-files("Kelvetica Nobis.otf"));
+body {
+    background-image: $header-img;
+    font-family: "Kelvetica";
+    font-size: 1.5em;
+    margin-top: 5%;
+    background-color: white;
+}
+
+h3 {
+    color: darkcyan;
+}
+
+.example {}
