@@ -18,13 +18,6 @@
 
         vm.testFunction = testFunction;
 
-        vm.go =
-
-            function (path) {
-                $location.path(path);
-            };
-
-
         /////////////////////
 
         /**

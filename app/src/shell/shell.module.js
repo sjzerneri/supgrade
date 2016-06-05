@@ -34,26 +34,18 @@
             .state('product-detail', {
                 url: '/product-detail',
                 templateUrl: 'src/catalog/product-detail.html',
-                controller: 'Home',
-                controllerAs: 'vm'
             })
             .state('cart', {
                 url: '/cart',
                 templateUrl: 'src/checkout/cart.html',
-                controller: 'Home',
-                controllerAs: 'vm'
             })
             .state('checkout', {
                 url: '/checkout',
                 templateUrl: 'src/checkout/checkout.html',
-                controller: 'Home',
-                controllerAs: 'vm'
             })
-            .state('checkout-2', {
+            .state('checkout2', {
                 url: '/checkout2',
                 templateUrl: 'src/checkout/checkout2.html',
-                controller: 'Home',
-                controllerAs: 'vm'
             })
     };
 
