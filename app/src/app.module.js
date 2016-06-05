@@ -4,18 +4,19 @@
  * @description Glue to where all the greatness begins
  */
 
-(function(){
+(function () {
 
-  'use strict';
+    'use strict';
 
-  angular.module('app', [
+    angular.module('app', [
     'app.core',
     'app.common',
   /**
-    * Application modules
-  **/
-    'app.welcome',
-    'app.shell'
+   * Application modules
+   **/
+    'app.shell',
+    'app.catalog',
+    'app.wizard'
   ]);
 
 }());

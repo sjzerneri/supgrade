@@ -1,22 +1,29 @@
 /**
  * @ngdoc controller
- * @name app.welcome.controller:Welcome
- * @description Welcome controller which typically is useless and you are going to delete it
+ * @name app.shell.controller:Home
+ * @description < description placeholder >
  */
 
 (function () {
 
     'use strict';
 
-    angular.module('app.welcome')
-        .controller('Welcome', Welcome);
+    angular
+        .module('app.shell')
+        .controller('Home', Home);
 
     /* @ngInject */
-    function Welcome() {
+    function Home($location) {
         var vm = this;
 
-        vm.welcomeMessage = 'Testing Welcome Message';
         vm.testFunction = testFunction;
+
+        vm.go =
+
+            function (path) {
+                $location.path(path);
+            };
+
 
         /////////////////////
 
@@ -24,13 +31,12 @@
          * @ngdoc method
          * @name testFunction
          * @param {number} num number is the number of the number
-         * @methodOf app.welcome.controller:Welcome
+         * @methodOf app.shell.controller:Home
          * @description
          * My Description rules
          */
-
         function testFunction(num) {
-            console.info('This is a test function number ' + num);
+            console.info('This is a test function');
         }
     }
 
