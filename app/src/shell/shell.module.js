@@ -40,7 +40,7 @@
                 url: '/product-detail',
                 templateUrl: 'src/catalog/product-detail.html',
             })
-            .state('cart', {
+            .state('home.cart', {
                 url: '/cart',
                 templateUrl: 'src/checkout/cart.html',
             })
@@ -72,6 +72,11 @@
                 url: '/contact',
                 templateUrl: 'src/core/contact.html',
             })
+            .state('home.signup', {
+                url: '/signup',
+                templateUrl: 'src/core/signup.html',
+            })
+
     };
 
 }());
