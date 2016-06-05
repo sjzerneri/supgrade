@@ -16,7 +16,8 @@
    **/
     'app.shell',
     'app.catalog',
-    'app.wizard'
+    'app.wizard',
+    'app.checkout'
   ]);
 
 }());
