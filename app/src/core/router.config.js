@@ -15,7 +15,7 @@
     /* @ngInject */
     function configuration($urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/home/catalog');
 
     }
 

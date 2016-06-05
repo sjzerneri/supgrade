@@ -18,6 +18,7 @@
         //add your state mappings here
         $stateProvider
             .state('home', {
+                abstract: true,
                 url: '/home',
                 templateUrl: 'src/shell/shell.html',
                 controller: 'Home',
@@ -27,9 +28,13 @@
                 url: '/wizard-start',
                 templateUrl: 'src/wizard/wizard-start.html'
             })
-            .state('catalog', {
+            .state('home.catalog', {
                 url: '/catalog',
                 templateUrl: 'src/catalog/catalog.html'
+            })
+            .state('home.about', {
+                url: '/about',
+                templateUrl: 'src/core/about.html'
             })
             .state('product-detail', {
                 url: '/product-detail',
@@ -46,6 +51,26 @@
             .state('checkout2', {
                 url: '/checkout2',
                 templateUrl: 'src/checkout/checkout2.html',
+            })
+            .state('home.login', {
+                url: '/login',
+                templateUrl: 'src/core/login.html',
+            })
+            .state('home.terms', {
+                url: '/terms-conditions',
+                templateUrl: 'src/core/terms.html',
+            })
+            .state('home.privacy', {
+                url: '/privacy',
+                templateUrl: 'src/core/privacy.html',
+            })
+            .state('home.blog', {
+                url: '/blog',
+                templateUrl: 'src/core/blog.html',
+            })
+            .state('home.contact', {
+                url: '/contact',
+                templateUrl: 'src/core/contact.html',
             })
     };
 
