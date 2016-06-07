@@ -1,4 +1,76 @@
-<p> fake product numero uno </p>
+<div class="product-overview">
+    <div class="container">
+        <div class="row">
+            <div class="product-header">
+                <h2> Gold Standard 100% Whey Protein </h2>
+                <h3> Optimum Nutrition </h3>
+            </div>
+        </div>
 
+    </div>
 
-<button ui-sref="cart"> Add to cart </button>
+    <div class="container">
+        <div class="row">
+            <div class="product-left col-sm-6">
+                <img class="product-image" src="http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg" />
+
+                <div class="product-dropdown" ng-controller="Product">
+                    <h4> Choose Size:</h4>
+                    <select>
+                        <option ng-repeat="item in vm.items" value="{{item}}">{{item}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="dietitian-scores col-sm-3">
+                        <h2> 4.5 </h2>
+                        <p> Dietitian Score</p>
+                    </div>
+                    <div class="user scores col-sm-3">
+                        <h2> 4.3 </h2>
+                        <p> Users Score</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <button class="add-to-cart" ui-sref="cart"> Add to cart </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="product-header">
+                <h2> Summary</h2>
+            </div>
+            <div class="product-summary-text">
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="product-header">
+                <h2> Ingredients </h2>
+            </div>
+            <div class="product-summary-text">
+                <ul>
+                    <li>Ingredient 1</li>
+                    <li>Ingredient 2</li>
+                    <li>Ingredient 3</li>
+                    <li>Ingredient 4</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -36,9 +36,11 @@
                 url: '/about',
                 templateUrl: 'src/core/about.html'
             })
-            .state('product-detail', {
+            .state('home.product-detail', {
                 url: '/product-detail',
                 templateUrl: 'src/catalog/product-detail.html',
+                controller: 'Product',
+                controllerAs: 'vm'
             })
             .state('home.cart', {
                 url: '/cart',
