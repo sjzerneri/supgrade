@@ -23,6 +23,15 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "app.catalog.controller:Product",
+      "shortName": "Product",
+      "type": "controller",
+      "moduleName": "app.catalog",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app catalog controller description method num number placeholder rules testfunction"
+    },
+    {
+      "section": "api",
       "id": "app.checkout",
       "shortName": "app.checkout",
       "type": "overview",
