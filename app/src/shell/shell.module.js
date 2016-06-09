@@ -54,10 +54,6 @@
                 url: '/checkout2',
                 templateUrl: 'src/checkout/checkout2.html',
             })
-            .state('home.login', {
-                url: '/login',
-                templateUrl: 'src/core/login.html',
-            })
             .state('home.terms', {
                 url: '/terms-conditions',
                 templateUrl: 'src/core/terms.html',
@@ -74,10 +70,7 @@
                 url: '/contact',
                 templateUrl: 'src/core/contact.html',
             })
-            .state('home.signup', {
-                url: '/signup',
-                templateUrl: 'src/core/signup.html',
-            })
+
 
     };
 

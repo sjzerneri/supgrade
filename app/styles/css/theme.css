@@ -1350,3 +1350,19 @@ blockquote .small {
 .product-summary-text {
     padding-left: 5rem;
 }
+
+.dietitian-insights {
+    padding-left: 5rem;
+}
+
+.review {
+    margin-top: 3rem;
+}
+
+.written-review {
+    margin-top: 2rem;
+}
+
+.review-pic {
+    height: 5rem;
+}
