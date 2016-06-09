@@ -14,6 +14,42 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "app.auth",
+      "shortName": "app.auth",
+      "type": "overview",
+      "moduleName": "app.auth",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app description overview placeholder"
+    },
+    {
+      "section": "api",
+      "id": "app.auth.auth",
+      "shortName": "app.auth.auth",
+      "type": "service",
+      "moduleName": "app.auth",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app description entity placeholder service testfunction"
+    },
+    {
+      "section": "api",
+      "id": "app.auth.controller:Login",
+      "shortName": "Login",
+      "type": "controller",
+      "moduleName": "app.auth",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app controller description method num number placeholder rules testfunction"
+    },
+    {
+      "section": "api",
+      "id": "app.auth.controller:Signup",
+      "shortName": "Signup",
+      "type": "controller",
+      "moduleName": "app.auth",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app controller description method num number placeholder rules testfunction"
+    },
+    {
+      "section": "api",
       "id": "app.catalog",
       "shortName": "app.catalog",
       "type": "overview",
