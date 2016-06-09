@@ -4,33 +4,36 @@
  * @description < description placeholder >
  */
 
-(function(){
+(function () {
 
-  'use strict';
+    'use strict';
 
-	angular
-		.module('app.auth')
-		.controller('Signup', Signup);
+    angular
+        .module('app.auth')
+        .controller('Signup', Signup);
 
-  /* @ngInject */
-	function Signup(){
-		var vm = this;
+    /* @ngInject */
+    function Signup($state) {
+        var vm = this;
 
-		vm.testFunction = testFunction;
+        vm.submit = submit;
 
-    /////////////////////
+        /////////////////////
 
-    /**
-     * @ngdoc method
-     * @name testFunction
-     * @param {number} num number is the number of the number
-     * @methodOf app.auth.controller:Signup
-     * @description
-     * My Description rules
-     */
-    function testFunction(num){
-			console.info('This is a test function');
-		}
-	}
+        /**
+         * @ngdoc method
+         * @name testFunction
+         * @param {number} num number is the number of the number
+         * @methodOf app.auth.controller:Signup
+         * @description
+         * My Description rules
+         */
 
+        function submit(fname, lname, email, password) {
+
+            console.log(vm.fname);
+
+            $state.go('home.account');
+        }
+    }
 }());

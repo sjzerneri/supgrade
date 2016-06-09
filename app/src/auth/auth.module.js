@@ -28,6 +28,12 @@
                 controller: 'Login',
                 controllerAs: 'vm'
             })
+            .state('home.account', {
+                url: '/account',
+                templateUrl: 'src/auth/account.html',
+                controller: 'Signup',
+                controllerAs: 'vm'
+            })
             //add your state mappings here
             //$stateProvider
             //  .state('Welcome', {

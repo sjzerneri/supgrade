@@ -1,40 +1,40 @@
 <div class="col-sm-6 col-md-offset-3">
-    <form action="login.html" method="post" novalidate class="myform">
+    <form name="signup" novalidate class="myform">
         <h2 class="text-center">Create account</h2>
         <div class="row">
             <div class="col-sm-6">
                 <div class="form-group">
                     <label class="control-label">First name</label>
-                    <input name="name" placeholder="First Name" class="form-control" type="text">
+                    <input name="name" placeholder="First Name" class="form-control" type="text" ng-model="vm.fname">
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="form-group">
                     <label class="control-label">Last Name</label>
-                    <input name="name2" placeholder="Last Name" class="form-control" type="text">
+                    <input name="name2" placeholder="Last Name" class="form-control" type="text" ng-model="vm.lname">
                 </div>
             </div>
         </div>
 
         <div class="form-group">
             <label class="control-label">Email</label>
-            <input name="email" placeholder="Email" class="form-control" type="text">
+            <input name="email" placeholder="Email" class="form-control" type="email" ng-model="vm.email">
         </div>
         <div class="form-group">
             <label class="control-label">Password</label>
-            <input name="Password" placeholder="Password" class="form-control" type="text">
+            <input name="Password" placeholder="Password" class="form-control" type="password" ng-model="vm.password">
         </div>
 
         <p>
-            <button name="submit" type="submit" class="btn btn-store btn-block">Create an account</button>
+            <button type="submit" class="btn btn-store btn-block" ng-click="vm.submit(vm.fname,vm.lname,vm.email,vm.password)">Create an account</button>
         </p>
     </form>
 </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-12 text-center show-more">
-        <a href="index.html" class="btn btn-outline">Cancel and return to store</a>
+<div class="row ">
+    <div class="col-sm-12 text-center show-more ">
+        <a ui-sref="home.catalog" class="btn btn-outline ">Cancel and return to store</a>
     </div>
 </div>
 
