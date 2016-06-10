@@ -13,10 +13,15 @@
         .controller('Product', Product);
 
     /* @ngInject */
-    function Product() {
+    function Product($http, product) {
         var vm = this;
 
-        vm.items = ['Large $59', 'Small $34'];
+        vm.items = ['Large 59', 'Small 34'];
+
+        product.productBatch().then(function (response) {
+            vm.products = response;
+            console.log(vm.products);
+        });
 
         /////////////////////
 
