@@ -4,7 +4,7 @@
  * @description < description placeholder >
  */
 
-(function () {
+(function() {
 
     'use strict';
 
@@ -15,14 +15,23 @@
     /* @ngInject */
     function configuration($stateProvider) {
 
-        //add your state mappings here
-        //$stateProvider
-        //  .state('Welcome', {
-        //    url:'/welcome',
-        //    templateUrl:'src/welcome/welcome.html',
-        //    controller: 'WelcomeCtrl as vm'
-        //  }
-        //);
+        $stateProvider
+            .state('home.catalog', {
+                url: '/catalog',
+                templateUrl: 'src/catalog/catalog.html'
+            })
+            .state('home.checkout', {
+                url: '/checkout',
+                templateUrl: 'src/checkout/checkout.html'
+            })
+            //add your state mappings here
+            //$stateProvider
+            //  .state('Welcome', {
+            //    url:'/welcome',
+            //    templateUrl:'src/welcome/welcome.html',
+            //    controller: 'WelcomeCtrl as vm'
+            //  }
+            //);
     }
 
 }());

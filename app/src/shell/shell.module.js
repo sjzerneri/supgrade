@@ -4,7 +4,7 @@
  * @description < description placeholder >
  */
 
-(function () {
+(function() {
 
     'use strict';
 
@@ -28,10 +28,6 @@
                 url: '/wizard-start',
                 templateUrl: 'src/wizard/wizard-start.html'
             })
-            .state('home.catalog', {
-                url: '/catalog',
-                templateUrl: 'src/catalog/catalog.html'
-            })
             .state('home.about', {
                 url: '/about',
                 templateUrl: 'src/core/about.html'
@@ -45,10 +41,8 @@
             .state('home.cart', {
                 url: '/cart',
                 templateUrl: 'src/checkout/cart.html',
-            })
-            .state('checkout', {
-                url: '/checkout',
-                templateUrl: 'src/checkout/checkout.html',
+                controller: 'Product',
+                controllerAs: 'vm'
             })
             .state('checkout2', {
                 url: '/checkout2',

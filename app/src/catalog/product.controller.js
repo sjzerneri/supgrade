@@ -4,7 +4,7 @@
  * @description < description placeholder >
  */
 
-(function () {
+(function() {
 
     'use strict';
 
@@ -13,29 +13,28 @@
         .controller('Product', Product);
 
     /* @ngInject */
-    function Product($http, product) {
+    function Product($http, product,$state) {
         var vm = this;
 
         vm.items = ['Large 59', 'Small 34'];
 
-        product.productBatch().then(function (response) {
+        product.productBatch().then(function(response) {
             vm.products = response.data.productInfo;
             console.log(vm.products);
         });
 
-        /////////////////////
+        vm.addToCart = addToCart;
 
-        /**
-         * @ngdoc method
-         * @name testFunction
-         * @param {number} num number is the number of the number
-         * @methodOf app.catalog.controller:Product
-         * @description
-         * My Description rules
-         */
-        function testFunction(num) {
-            console.info('This is a test function');
-        }
-    }
+        vm.items = [];
 
+        function addToCart() {
+
+            console.log('test');
+            $state.go('home.cart');
+            vm.items.push({
+                item: 'Test Item'
+            });
+            console.log(vm.items);
+        };
+    };
 }());
