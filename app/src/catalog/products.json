@@ -6,6 +6,20 @@
             "productDescription": "Serious Mass",
             "productImage": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
             "productType": "Whey"
+        },
+        {
+            "manufacturer": "Optimum Nutrition 2",
+            "productCategory": "protein",
+            "productDescription": "Serious Mass",
+            "productImage": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
+            "productType": "Whey"
+        },
+        {
+            "manufacturer": "Optimum Nutrition 3",
+            "productCategory": "protein",
+            "productDescription": "Serious Mass",
+            "productImage": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
+            "productType": "Whey"
         }
     ]
 }

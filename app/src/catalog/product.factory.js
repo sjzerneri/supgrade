@@ -16,7 +16,7 @@
     function product($http) {
 
         function productBatch() {
-            return $http.get('products.json').then(function (response) {
+            return $http.get('src/catalog/products.json').then(function (response) {
                 return response;
             })
         }

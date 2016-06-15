@@ -19,7 +19,7 @@
         vm.items = ['Large 59', 'Small 34'];
 
         product.productBatch().then(function (response) {
-            vm.products = response;
+            vm.products = response.data.productInfo;
             console.log(vm.products);
         });
 
