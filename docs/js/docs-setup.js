@@ -59,12 +59,30 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "app.catalog.controller:Catalog",
+      "shortName": "Catalog",
+      "type": "controller",
+      "moduleName": "app.catalog",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app catalog controller description placeholder"
+    },
+    {
+      "section": "api",
       "id": "app.catalog.controller:Product",
       "shortName": "Product",
       "type": "controller",
       "moduleName": "app.catalog",
       "shortDescription": "&lt; description placeholder &gt;",
-      "keywords": "api app catalog controller description method num number placeholder rules testfunction"
+      "keywords": "api app catalog controller description placeholder"
+    },
+    {
+      "section": "api",
+      "id": "app.catalog.product",
+      "shortName": "app.catalog.product",
+      "type": "service",
+      "moduleName": "app.catalog",
+      "shortDescription": "&lt; description placeholder &gt;",
+      "keywords": "api app catalog description placeholder product service"
     },
     {
       "section": "api",
