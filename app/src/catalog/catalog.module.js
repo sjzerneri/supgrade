@@ -18,7 +18,9 @@
         $stateProvider
             .state('home.catalog', {
                 url: '/catalog',
-                templateUrl: 'src/catalog/catalog.html'
+                templateUrl: 'src/catalog/catalog.html',
+                controller: 'Catalog',
+                controllerAs: 'vm'
             })
             .state('home.checkout', {
                 url: '/checkout',

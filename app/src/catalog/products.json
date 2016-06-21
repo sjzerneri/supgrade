@@ -1,25 +1,171 @@
 {
-    "productInfo": [
-        {
-            "manufacturer": "Optimum Nutrition",
-            "productCategory": "protein",
-            "productDescription": "Serious Mass",
-            "productImage": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
-            "productType": "Whey"
-        },
-        {
-            "manufacturer": "Optimum Nutrition 2",
-            "productCategory": "protein",
-            "productDescription": "Serious Mass",
-            "productImage": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
-            "productType": "Whey"
-        },
-        {
-            "manufacturer": "Optimum Nutrition 3",
-            "productCategory": "protein",
-            "productDescription": "Serious Mass",
-            "productImage": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
-            "productType": "Whey"
-        }
-    ]
+    "productInfo": [{
+        "Product_id": 1,
+        "Manufacturer": "Gold Standard",
+        "Category": "Protein",
+        "Product": "100% Whey",
+        "Ingredients": "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Cocoa (Processed with Alkali), Cocoa (Processed with Alkali), Artificial Flavor, Artificial Flavor, Lecithin, Lecithin, Acesulfame Potassium, Acesulfame Potassium",
+        "Image": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 2,
+        "Manufacturer": "Syntha-6",
+        "Category": "Protein",
+        "Product": "Ultra Premium Protein Matrix",
+        "Ingredients": "Protein Matrix comprised of (Whey Protein Concentrate, Whey Protein Isolate, Calcium Caseinate, Micellar Casein, Milk Protein Isolate, Egg Albumen and Glutamine Peptides), Polydextrose, Sunflower Powder (Sunflower Oil, Corn Syrup Solids, Sodium Caseinate, Mono- & Di-Glycerides, Dipotassium Phosphate, Tricalcium Phosphate, Soy Lecithin and Tocopherols), Natural & Artificial Flavors, MCT Powder (Medium Chain Triglycerides, Non-Fat Dry Milk, Disodium Phosphate, and Silicon Dioxide), Soy Lecithin, Cellulose Gum, Salt, FD&C Yellow #5, Sucralose, Acesulfame Potassium, Papain and Bromelain.",
+        "Image": "http://www.gobsn.com/templates/default/en/img/product/syntha6.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 3,
+        "Manufacturer": "EAS",
+        "Category": "Protein",
+        "Product": "100% Whey Protein",
+        "Ingredients": "Whey Protein Concentrate, Cocoa (processed with alkali), less than 2% of: Natural and Artificial Flavor, Salt, Soy Lecithin, Carrageenan, Xanthan Gum, Acesulfame Potassium, and Sucralose.",
+        "Image": "http://ecx.images-amazon.com/images/I/81hnta6UGfL._SY355_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 4,
+        "Manufacturer": "Optimum Nutrition",
+        "Category": "Protein",
+        "Product": "Serious Mass",
+        "Ingredients": "Maltodextrin, Proprietary Protein Blend (Whey Protein Concentrate, Calcium Caseinate, Egg Albumen, Sweet Dairy Whey), Cocoa, Natural and Artificial Flavor, Vitamin and Mineral Blend (Dipotassium Phosphate, Magnesium Aspartate, Dicalcium Phosphate, Calcium Citrate, Ascorbic Acid, Niacinamide, Zinc Citrate, Beta Carotene, D-calcium Pantothenate, D-alpha Tocopheryl Succinate, Selenomethionine, Copper Gluconate, Ferrous Fumarate, Manganese Amino Acids Chelate, Thiamin Mononitrate, Pyridoxine Hydrochloride, Riboflavin, Chromium Polynicotinate, Folic Acid, Biotin, Molybdenum Amino Acid Chelate, Cholecalciferol, Potassium Iodide, Cyanocobalamin), Acesulfame Potassium, Medium Chain Triglycerides.",
+        "Image": "http://ecx.images-amazon.com/images/I/71kXmP7QPhL._SY355_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 5,
+        "Manufacturer": "Body Fortress",
+        "Category": "Protein",
+        "Product": "Super Advanced Whey Protein",
+        "Ingredients": "Super Whey Protein Blend (Whey Protein Concentrate, Whey Protein Isolate), Cocoa (processed with alkali), Maltodextrin, Soy Lecithin, Natural and Artificial Flavors, Cellulose Gum, Acesulfame Potassium, Sucralose.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/81UxNsPCevL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 6,
+        "Manufacturer": "Integrated Supplements",
+        "Category": "Protein",
+        "Product": "Whey Isolate Protein",
+        "Ingredients": "Provon® Whey Protein Isolate produced by Patented CFM® Cross Flow Microfiltration Method, Crystalline Fructose, Dutch Cocoa, Non-Gmo Lecithin, Fine Sea Salt, Inulin Fiber, Lo Han Fruit Extract, Natural Peppermint Flavor",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/71eWSb2B%2B-L._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 7,
+        "Manufacturer": "MyProtein",
+        "Category": "Protein",
+        "Product": "Impact Whey Isolate Whey Protein",
+        "Ingredients": "Undenatured Whey Protein Concentrate*, Cocoa Powder (chocolate smooth, chocolate caramel and mocha flavours only), Flavouring (flavoured options only), Citric Acid (raspberry, vanilla and raspberry, strawberry jam roly poly & summer fruit flavours only), Malt Extract (latte, toffee, chocolate caramel & banoffee flavours only), Emulsifier (Soy Lecithin), Malic Acid (choc coconut flavour only), Sweetener (Sucralose? [flavoured options only]), Colourings (Beetroot Red [raspberry, vanilla and raspberry, strawberry cream, strawberry jam roly poly, summer fruits and rhubarb & custard flavours only], Anthocyanin [raspberry flavour only], Curcumin [ banana & summer fruits flavours only], Caramel [choc coconut and sticky toffee pudding flavours only]).",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/41SrbVaxkDL.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 8,
+        "Manufacturer": "NOW Foods",
+        "Category": "Protein",
+        "Product": "Whey Protein Isolate",
+        "Ingredients": "Microfiltered Whey Protein Isolate (including ß-lactoglobulin, α-lactalbumin, Immunoglobulins and Glycomacro Peptides) and Soy Lecithin (< 1%). Contains milk and soy.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/71y4zTyL7gL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 9,
+        "Manufacturer": "Jay Robb's",
+        "Category": "Protein",
+        "Product": "Whey Protein",
+        "Ingredients": "Cold-processed cross-flow microfiltered whey protein isolate, natural flavor, xanthan gum, non-GMO sunflower lecithin, and Reb-A stevia",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/91PLOYYR8XL._SX522_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 10,
+        "Manufacturer": "SFH",
+        "Category": "Protein",
+        "Product": "Pure Whey Protein",
+        "Ingredients": "Whey concentrate, natural vanilla flavor, sunflower lecithin, stevia",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/51P2smhiZBL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 11,
+        "Manufacturer": "Spiru-Tein",
+        "Category": "Protein",
+        "Product": "High Protein Energy Meal",
+        "Ingredients": "Non-gmo isolated soy protein, fructose, maltodextrin, tri-calcium phosphate, natural vanilla flavor, potassium citrate, magnesium oxide, guar gum, psyllium, oat bran, microcrystalline cellulose, spirulina, vitamin C, vitamin E acetate, choline bitartrate, inositol, apple pectin, bee pollen, niacinamide, vitamin A palmitate, zinc oxide, manganese sulfate, ferrous fumarate, calcium pantothenate, lecithin, lemon bioflavonoids, papaya, bromelain, chlorophyll, pyridoxine hcl, riboflavin, thiamine hcl, vitamin B12, vitamin D, folic acid, biotin, potassium iodide, chromium chloride, sodium selenite, sodium molybdate",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/911MbA2wC2L._SY606_.jpg",
+        "Type": "Soy"
+    }, {
+        "Product_id": 12,
+        "Manufacturer": "SunWarrior",
+        "Category": "Protein",
+        "Product": "Warrior Blend Raw Vegan Protein",
+        "Ingredients": "Proprietary Protein Blend (Raw Organic Pea Protein, Raw Cranberry Protein, Raw Organic Hemp Seed Protein), Organic Vanilla Extract, Natural Fibers (Fenugreek, Konjac), Stevia, Ancient Sea Salt, Medium Chain Triglycerides, Herbal (Tea Leaf) Extract, Natural Citrus Extract, Organic Cinnamon Extract",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/61%2BfSVlU-jL._SX522_.jpg",
+        "Type": "Pea"
+    }, {
+        "Product_id": 13,
+        "Manufacturer": "Vega Sport",
+        "Category": "Protein",
+        "Product": "Performance Protein",
+        "Ingredients": "Pea Protein, Organic Pumpkin Seed Protein, Organic Sunflower Seed Protein, Alfalfa Protein, Tart Cherry, Probiotics (Bacillus Coagulans [Provides 1 Billioin CFU/Serving]), Bromelain, Turmeric Extract, Black Pepper Extract, Contains less than 2% of: Strawberry Powder, Apple Powder, Beetroot Powder (for Color), Sea Salt, Natural Vanilla Flavor, Natural Berry Flavor, Citric Acid, Stevia Extract, Xanthan Gum.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/91ZVYcUYyEL._SY606_.jpg",
+        "Type": "Pea"
+    }, {
+        "Product_id": 14,
+        "Manufacturer": "MRM",
+        "Category": "Protein",
+        "Product": "100% All Natural Whey",
+        "Ingredients": "NAT-PRO OPTIMIZER [Ultrafiltered, low temperature processed whey protein concentrate (milk), crossflow microfiltered whey protein isolate (milk), L-glutamine, sunflower lecithin & Digest-All® AP (a vegan enzyme blend)], cocoa, natural chocolate flavor, stevia leaf extract, carrageenan, salt and monk fruit extract.  Contains milk. This product is manufactured in a facility that produces other products that contain soy and egg.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/91oAjONGnBL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 15,
+        "Manufacturer": "Allmax Nutrition",
+        "Category": "Protein",
+        "Product": "IsoNatural Whey Protein Isolate",
+        "Ingredients": "Whey Protein Isolate, Natural Flavors, Guar Gum, Lo Han Guo (Monk Fruit Extract), Stevia, NutraFlora®, Acerola Extract 4:1, Grape Seed Extract.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/61r5IQXvsAL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 16,
+        "Manufacturer": "Bulletproof",
+        "Category": "Protein",
+        "Product": "Whey Protein",
+        "Ingredients": "Proserum whey protein concentrate, bovine colostrum, medium chain triglycerides, tapioca dextrin, tapioca",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/816UIByYDWL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 17,
+        "Manufacturer": "Nature's Best",
+        "Category": "Protein",
+        "Product": "Zero Carb Isopure",
+        "Ingredients": "Ion Exchange Whey [Milk] Protein Isolate, Microfiltered Whey [Milk] Protein Isolate, Vitamin/Mineral/, Amino Acid Blend, (Taurine, Potassium [As Potassium Chloride], Chloride [As Potassium And Sodium Chloride], Calcium [As Dicalcium Phosphate Dihydrate], Phosphorus [As Dicalcium Phosphate Dihydrate], L-Glutamine, Magnesium [As Magnesium Oxide], Vitamin C [As Ascorbic Acid], Vitamin E [As DL-Alpha Tocopheryl Acetate], Niacin, Zinc [As Zinc Sulfate Dihydrate], Vitamin A [As Palmitate], Pantothenic Acid [As D-Calcium Pantothenate], Vitamin B6 [As Pyridoxine Hydrochloride], Copper [As Amino Acid Chelate], Manganese [As Manganese Sulfate Dihydrate], Riboflavin, Thiamin [As Thiamin Hydrochloride], Folic Acid, Biotin, Iodide [As Potassium Iodide], Chromium [As Amino Acid Chelate], Vitamin K, Molybdenum [As Amino Acid Chelate], Selenium [As Amino Acid Chelate], Vitamin B12), Soy Lecithin, Natural And Artificial Flavors, Xanthan Gum, Sucralose.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/81ygQdrUmYL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 18,
+        "Manufacturer": "Dymatize",
+        "Category": "Protein",
+        "Product": "ISO-100",
+        "Ingredients": "Hydrolyzed Whey Protein Isolates, Natural and Artificial Flavors, Salt, Sucralose, Stevia Leaf Extract.",
+        "Image": "https://images-na.ssl-images-amazon.com/images/I/81-WSnD0HlL._SY606_.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 19,
+        "Manufacturer": "Six Star Pro Nutrition",
+        "Category": "Protein",
+        "Product": "Whey Isolate Plus Protein",
+        "Ingredients": "Protein Isolate Plus Blend [(Whey Protein Isolate, 97% Whey Protein Isolate, Whey Protein Isolate Peptides, L-Leucine, L-Isoleucine, L-Valine, L-Glutamine, Glutamine Peptides), Premium Taste Blend (Cocoa Powder [Processed with Alkali], Natural And Artificial Flavor, Calcium Carbonate, Silicon Dioxide, Soy Lecithin, Gum Blend [Cellulose Gum, Xanthan Gum, Carrageenan], Papain, Amylase, Sucralose, Acesulfame-Potassium)], Isolated Soy Protein",
+        "Image": "https://store.bbcomcdn.com/images/store/prodimage/prod_prod270026/image_prodprod270026_largeImage_X_450_white.jpg",
+        "Type": "Whey"
+    }, {
+        "Product_id": 20,
+        "Manufacturer": "Pure Protein",
+        "Category": "Protein",
+        "Product": "Natural Whey Protein",
+        "Ingredients": "Protein Blend (Whey Protein Concentrate, Whey Protein Isolate), Fructose, Natural Flavors, Soy Lecithin, Stevia Extract.",
+        "Image": "http://www.pureprotein.com/~/media/pureprotein/product-catalog/products/natural-whey-french-vanilla-16lbs/naturalwheypowderfrenchvanilla.ashx",
+        "Type": "Whey"
+    }, {
+        "Product_id": 21,
+        "Manufacturer": "MusclePharm",
+        "Category": "Protein",
+        "Product": "Casein",
+        "Ingredients": "Micellar Casein, Cocoa Powder, Natural & Artificial Flavors, Inulin, Sea Salt, Guar Gum, Xanthan Gum, Cellulose Gum, Acesulfame Potassium, Sucralose, Enzyme Blend (Protease, Lactase).",
+        "Image": "https://store.bbcomcdn.com/images/store/prodimage/prod_prod2200008/image_prodprod2200008_largeImage_X_450_white.jpg",
+        "Type": "Casein"
+    }]
 }

@@ -1,45 +1,29 @@
 <div class="container-fluid productlist">
-    <div class="row">
-        <div class="col-sm-4">
-            <a href="#/home/product-detail">
-                <img src="http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg" class="img-responsive" alt="item">
-                <span class="productlist-price-container">
-                    <span class="product-price">
-                        <span class="price">$55</span>
-                </span>
-                </span>
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <a href="product2.html">
-                <img src="http://ecx.images-amazon.com/images/I/71kXmP7QPhL._SY355_.jpg" class="img-responsive" alt="item">
-                <span class="productlist-price-container">
-                    <span class="product-price">
-                        <span class="price">$62</span>
-                </span>
-                </span>
-            </a>
-        </div>
-        <div class="col-sm-4">
-            <a href="product2.html">
-                <img src="http://ecx.images-amazon.com/images/I/81hnta6UGfL._SY355_.jpg" class="img-responsive" alt="item">
-                <span class="productlist-price-container">
-                    <span class="product-price">
-                        <span class="price">$51</span>
-                </span>
-                </span>
-            </a>
-        </div>
 
-
+     <div class="row">
+        <div class="col-sm-3 product-img-catalog" ng-repeat="product in vm.products">
+            <a ng-href="#/home/product-detail/{{product.Product_id}}">
+                <img src="{{product.Image}}" class="product-img" alt="item">
+                <span class="productlist-price-container">
+                    <span class="product-price">
+                        <span class="price">55</span>
+                </span>
+                </span>
+            </a>
+        </div>
     </div>
-
 
 </div>
 
+</div>
 <div class="row">
     <div class="col-sm-12 text-center show-more">
         <a href="#" class="btn btn-outline" id="showmore">Show more</a>
     </div>
 </div>
 </div>
+
+
+
+
+   

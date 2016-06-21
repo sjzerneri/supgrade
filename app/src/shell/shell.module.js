@@ -32,8 +32,8 @@
                 url: '/about',
                 templateUrl: 'src/core/about.html'
             })
-            .state('home.product-detail', {
-                url: '/product-detail',
+            .state('home.product-detail/:Product_id', {
+                url: '/product-detail/:Product_id',
                 templateUrl: 'src/catalog/product-detail.html',
                 controller: 'Product',
                 controllerAs: 'vm'

@@ -1366,3 +1366,17 @@ blockquote .small {
 .review-pic {
     height: 5rem;
 }
+
+/**
+*
+* Product Detail Page
+*
+*/
+
+.product-img {
+    height: 20rem;
+}
+
+.product-img-catalog {
+    margin-bottom:5rem;
+}
