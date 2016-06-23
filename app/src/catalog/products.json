@@ -3,7 +3,9 @@
         "Product_id": 1,
         "Manufacturer": "Gold Standard",
         "Category": "Protein",
-        "Product": "100% Whey",
+        "Product": "100% Whey Protein",
+        "Price": 45,
+        "Summary": "Optimum Nutrition's Gold Standard 100% Whey uses pure Whey Protein Isolates as the primary ingredient. Combined with ultra-filtered whey protein concentrate, each serving provides 24 grams of all-whey protein and 5.5 grams of naturally occurring Branched Chain Amino Acids (BCAAs) which are prized by athletes for their muscle building qualities. With more than 20 tempting flavors to choose from, ON’s Gold Standard 100% Whey gives you plenty of ways to keep workout recovery interesting.",
         "Ingredients": "Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Protein Blend (Whey Protein Isolate, Whey Protein Concentrate, Whey Peptides), Cocoa (Processed with Alkali), Cocoa (Processed with Alkali), Artificial Flavor, Artificial Flavor, Lecithin, Lecithin, Acesulfame Potassium, Acesulfame Potassium",
         "Image": "http://ecx.images-amazon.com/images/I/71ItHGWYSLL._SY355_.jpg",
         "Type": "Whey"
@@ -12,6 +14,8 @@
         "Manufacturer": "Syntha-6",
         "Category": "Protein",
         "Product": "Ultra Premium Protein Matrix",
+        "Price": 41,
+        "Summary": "SYNTHA-6 is an ultra-premium protein powder and BSN's best-tasting protein on the market. SYNTHA-6 not only includes essential amino acids and essential fatty acids, but is also an excellent source of fiber and contains 6g of fat per serving, which makes it a nutritious and multi-functional protein supplement. SYNTHA-6 is the go-to protein for any nutrition or exercise regimen because it is designed to suit a variety of active lifestyles and diet plans. And with SYNTHA-6, the high standard of quality protein comes with taste to match, thanks to BSN's exclusive flavor technology.",
         "Ingredients": "Protein Matrix comprised of (Whey Protein Concentrate, Whey Protein Isolate, Calcium Caseinate, Micellar Casein, Milk Protein Isolate, Egg Albumen and Glutamine Peptides), Polydextrose, Sunflower Powder (Sunflower Oil, Corn Syrup Solids, Sodium Caseinate, Mono- & Di-Glycerides, Dipotassium Phosphate, Tricalcium Phosphate, Soy Lecithin and Tocopherols), Natural & Artificial Flavors, MCT Powder (Medium Chain Triglycerides, Non-Fat Dry Milk, Disodium Phosphate, and Silicon Dioxide), Soy Lecithin, Cellulose Gum, Salt, FD&C Yellow #5, Sucralose, Acesulfame Potassium, Papain and Bromelain.",
         "Image": "http://www.gobsn.com/templates/default/en/img/product/syntha6.jpg",
         "Type": "Whey"
@@ -20,6 +24,8 @@
         "Manufacturer": "EAS",
         "Category": "Protein",
         "Product": "100% Whey Protein",
+        "Price": 42,
+        "Summary": "100 Whey Chocolate by EAS 5 lbs Powder 100 Whey Chocolate (replaces simply protein) 5 lbs Powder Simply Protein Complete Whey provides your body with 20 grams of high quality whey protein per serving with only 2 grams of fat. Supplementing with Simply Protein can help Boost protein intake at or in-between meals Support tissue repair after workouts Support the immune system and provide antioxidant protection Suggested Use As a dietary supplement Mix 1 scoop with 6-8 ounces of cold water or milk. For best results consume 1-4 serving daily. To support positive nitrogen balance serious athletes should consume approximately 1 gram of protein per pound Bodyeight spread over 4-6 small meals per day. - Or as directed by your healthcare professional.",
         "Ingredients": "Whey Protein Concentrate, Cocoa (processed with alkali), less than 2% of: Natural and Artificial Flavor, Salt, Soy Lecithin, Carrageenan, Xanthan Gum, Acesulfame Potassium, and Sucralose.",
         "Image": "http://ecx.images-amazon.com/images/I/81hnta6UGfL._SY355_.jpg",
         "Type": "Whey"
@@ -28,6 +34,8 @@
         "Manufacturer": "Optimum Nutrition",
         "Category": "Protein",
         "Product": "Serious Mass",
+        "Price": 44,
+        "Summary": "Serious weight gain goals require serious calories. Unfortunately, those who need the extra calories most often have a hard time consuming enough of them. For many aspiring to be bigger, a highly- active metabolism, weaker appetite and on-the-run lifestyle can make it a real challenge to get enough calories from food. With 1,250 calories and 50 grams of protein per serving, you’ve got lots to gain from ON’s Serious Mass. Get serious about your sizable ambitions with Serious Mass.",
         "Ingredients": "Maltodextrin, Proprietary Protein Blend (Whey Protein Concentrate, Calcium Caseinate, Egg Albumen, Sweet Dairy Whey), Cocoa, Natural and Artificial Flavor, Vitamin and Mineral Blend (Dipotassium Phosphate, Magnesium Aspartate, Dicalcium Phosphate, Calcium Citrate, Ascorbic Acid, Niacinamide, Zinc Citrate, Beta Carotene, D-calcium Pantothenate, D-alpha Tocopheryl Succinate, Selenomethionine, Copper Gluconate, Ferrous Fumarate, Manganese Amino Acids Chelate, Thiamin Mononitrate, Pyridoxine Hydrochloride, Riboflavin, Chromium Polynicotinate, Folic Acid, Biotin, Molybdenum Amino Acid Chelate, Cholecalciferol, Potassium Iodide, Cyanocobalamin), Acesulfame Potassium, Medium Chain Triglycerides.",
         "Image": "http://ecx.images-amazon.com/images/I/71kXmP7QPhL._SY355_.jpg",
         "Type": "Whey"
@@ -36,6 +44,8 @@
         "Manufacturer": "Body Fortress",
         "Category": "Protein",
         "Product": "Super Advanced Whey Protein",
+        "Price": 59,
+        "Summary": "Body Fortress Super Advanced Whey Protein delivers a powerful blend of premium proteins to support lean muscle mass and maximize any serious athlete's training.* Whey is the preferred protein source in sports and bodybuilding nutrition, because it contains superior quality Branched Chain Amino Acids (BCAAs) – made up of Leucine, Isoleucine and Valine – which are important for the maintenance of muscle tissue.* Body Fortress Super Advanced Whey Protein contains all of the essential amino acids required for supporting lean muscle and exercise recovery.* This Vanilla flavored protein powder features 60 grams of protein per serving, and supplies you with over 8 grams of BCAAs from protein, so you can recover faster from your high-intensity workouts.*",
         "Ingredients": "Super Whey Protein Blend (Whey Protein Concentrate, Whey Protein Isolate), Cocoa (processed with alkali), Maltodextrin, Soy Lecithin, Natural and Artificial Flavors, Cellulose Gum, Acesulfame Potassium, Sucralose.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/81UxNsPCevL._SY606_.jpg",
         "Type": "Whey"
@@ -44,6 +54,8 @@
         "Manufacturer": "Integrated Supplements",
         "Category": "Protein",
         "Product": "Whey Isolate Protein",
+        "Price": 51,
+        "Summary": "Unlike other whey proteins, Integrated Supplements 100% Natural CFM Whey Protein Isolate is expertly formulated using only the highest quality ceramic filtered whey protein isolate. Absolutely no inferior whey concentrates, ion exchange isolates, or resin-filtered isolates are used. Make no mistake about it. All whey proteins are not created equal. Only the CFM processing technique maintains all of the delicate protein microfractions in whey, while ridding the product of undesirable fat, lactose, denatured (non-functional) proteins and cholesterol. Want some solid proof? Check out the cholesterol content of some of our competitors' products. At Integrated Supplements, our philosophy is to produce the highest quality, best tasting all natural supplements in the industry. It's this unwavering dedication to quality which makes Integrated Supplements 100% Natural CFM Whey Protein Isolate by far the highest quality protein supplement on the market. We truly believe that you'll find Integrated Supplements 100% Natural CFM Whey Protein Isolate to be the absolute best-tasting protein supplement you've ever tried. We spared no expense to formulate our flavors with the highest quality dutch cocoa, real strawberry pieces, and finest natural vanilla money can buy. One taste of Integrated Supplements 100% Natural CFM Whey Protein Isolate and you'll know you're experiencing the best protein supplement ever created. The Integrated Supplements commitment to quality ensures that we produce our products without the use of FD&C colors, Aspartame, Sucralose, or Acesulfame Potassium. In fact, you can rest assured that all of our products are all natural and we use absolutely no artificial flavors or sweeteners in any of our formulations.",
         "Ingredients": "Provon® Whey Protein Isolate produced by Patented CFM® Cross Flow Microfiltration Method, Crystalline Fructose, Dutch Cocoa, Non-Gmo Lecithin, Fine Sea Salt, Inulin Fiber, Lo Han Fruit Extract, Natural Peppermint Flavor",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/71eWSb2B%2B-L._SY606_.jpg",
         "Type": "Whey"
@@ -52,6 +64,8 @@
         "Manufacturer": "MyProtein",
         "Category": "Protein",
         "Product": "Impact Whey Isolate Whey Protein",
+        "Price": 52,
+        "Summary": "Our Impact Whey Isolate& is an extremely rich source of whey protein derived from vegetarian sweet cheese, sourced directly from the world's leading whey protein manufacturers. Whey Protein Isolate (WPI) is the ultimate form of whey protein, containing over 90% protein with very little fat and lactose. Having the highest Biological Value (BV) of any known protein, Whey Protein Isolate contains high levels of both essential and non-essential Amino Acids. In the manufacture of our Impact Whey Isolate&#174; we use Cross-Flow Micro-filtration, a delicate process, which uses filters to separate protein from fat, cholesterol and lactose based on molecular size and weight. Impact Whey Isolate&#174; provides over 90g of protein per 100g on a dry matter basis, is low in fat and lactose and rich in calcium. Our production methods help to preserve the biological activity of the whey protein ensuring all the immune-boosting components remain intact. Traceability is a key part of our quality monitoring process and to aid this process we work directly with the world's leading whey manufacturers to ensure we have complete knowledge and confidence in the production process of our whey protein. The protein fractions are: 47% Beta lactoglobulin, 17% Alpha lactalbumin, 1.5% Bovine serum albumin,2% Immunoglobulin G, 0.5% Lactoferrin, 27% Glycomacropeptide.",
         "Ingredients": "Undenatured Whey Protein Concentrate*, Cocoa Powder (chocolate smooth, chocolate caramel and mocha flavours only), Flavouring (flavoured options only), Citric Acid (raspberry, vanilla and raspberry, strawberry jam roly poly & summer fruit flavours only), Malt Extract (latte, toffee, chocolate caramel & banoffee flavours only), Emulsifier (Soy Lecithin), Malic Acid (choc coconut flavour only), Sweetener (Sucralose? [flavoured options only]), Colourings (Beetroot Red [raspberry, vanilla and raspberry, strawberry cream, strawberry jam roly poly, summer fruits and rhubarb & custard flavours only], Anthocyanin [raspberry flavour only], Curcumin [ banana & summer fruits flavours only], Caramel [choc coconut and sticky toffee pudding flavours only]).",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/41SrbVaxkDL.jpg",
         "Type": "Whey"
@@ -60,6 +74,8 @@
         "Manufacturer": "NOW Foods",
         "Category": "Protein",
         "Product": "Whey Protein Isolate",
+        "Price": 54,
+        "Summary": "NOW® Whey Protein Isolate is a high quality protein supplement that is both bioavailable and easily digested. Whey protein contains a high concentration of Branched Chain Amino Acids (BCAA's), which are important for efficient muscle metabolism.* These qualities make NOW® Whey Protein Isolate an ideal supplement for active individuals. Whey protein is considered to have the highest Biological Value of any protein source - superior in essential amino acid content to beef, milk, casein or soy. Since 1968, NOW® has earned a valued reputation for producing quality products at reasonable prices. Our Quality Assurance and Quality Control teams of certified nutritionists, chemists and technicians thoroughly evaluate all products, processes, packaging and sources. Our responsiblity and pledge is to honestly and accurately label quality products that are fresh, potent and effective.",
         "Ingredients": "Microfiltered Whey Protein Isolate (including ß-lactoglobulin, α-lactalbumin, Immunoglobulins and Glycomacro Peptides) and Soy Lecithin (< 1%). Contains milk and soy.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/71y4zTyL7gL._SY606_.jpg",
         "Type": "Whey"
@@ -68,6 +84,8 @@
         "Manufacturer": "Jay Robb's",
         "Category": "Protein",
         "Product": "Whey Protein",
+        "Price": 33,
+        "Summary": "DON'T WAIT TO DROP THE WEIGHT: Adding Jay Robb Whey Protein into your diet is one of the best things you can do to help aid in healthy weight management. It has been shown that replacing other sources of calories with whey protein, combined with exercise, can assist in the journey to a healthy weight.",
         "Ingredients": "Cold-processed cross-flow microfiltered whey protein isolate, natural flavor, xanthan gum, non-GMO sunflower lecithin, and Reb-A stevia",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/91PLOYYR8XL._SX522_.jpg",
         "Type": "Whey"
@@ -76,6 +94,8 @@
         "Manufacturer": "SFH",
         "Category": "Protein",
         "Product": "Pure Whey Protein",
+        "Price": 41,
+        "Summary": "Whey protein is a pure, natural, high quality protein from cow's milk. Our whey protein is derived from grass fed, free range cows, which are never treated with antibiotics or bovine growth hormones. It is a rich source of the essential amino acids needed on a daily basis by the body.",
         "Ingredients": "Whey concentrate, natural vanilla flavor, sunflower lecithin, stevia",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/51P2smhiZBL._SY606_.jpg",
         "Type": "Whey"
@@ -84,6 +104,8 @@
         "Manufacturer": "Spiru-Tein",
         "Category": "Protein",
         "Product": "High Protein Energy Meal",
+        "Price": 40,
+        "Summary": "Spiru-Tein (Spirutein) Shake - Vanilla by Nature's Plus 2.4 lb. Powder Spiru-Tein (Spirutein) Shake - Vanilla 2.4 lb. Powder Product Rich in flavor and nutrition - that's SPIRU-TEIN One of life's true pleasures is enjoying a delicious treat you know is good for you in every way. Nature's Plus is especially proud of its entire line of SPIRU-TEIN products. With zero fat SPIRU-TEIN delivers a healthy infusion of plant-based protein along with other essential nutrients. SPIRU-TEIN Energy Shakes now feature our pioneering patent-pending Tri-Part Protein Blend of non-GMO rice protein pea protein and both non-fermented and fermented soy. With 14 grams of protein each serving of SPIRU-TEIN is a high-protein energy meal. Each delicious flavor has been meticulously engineered to provide a broad range of minerals and an incredible 100 of the Daily Value of all vitamins. Suggested Use As a dietary supplement add one heaping scoop (scoop included in can) of Vanilla Spiru-Tein powder to 8 fl oz of",
         "Ingredients": "Non-gmo isolated soy protein, fructose, maltodextrin, tri-calcium phosphate, natural vanilla flavor, potassium citrate, magnesium oxide, guar gum, psyllium, oat bran, microcrystalline cellulose, spirulina, vitamin C, vitamin E acetate, choline bitartrate, inositol, apple pectin, bee pollen, niacinamide, vitamin A palmitate, zinc oxide, manganese sulfate, ferrous fumarate, calcium pantothenate, lecithin, lemon bioflavonoids, papaya, bromelain, chlorophyll, pyridoxine hcl, riboflavin, thiamine hcl, vitamin B12, vitamin D, folic acid, biotin, potassium iodide, chromium chloride, sodium selenite, sodium molybdate",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/911MbA2wC2L._SY606_.jpg",
         "Type": "Soy"
@@ -92,6 +114,8 @@
         "Manufacturer": "SunWarrior",
         "Category": "Protein",
         "Product": "Warrior Blend Raw Vegan Protein",
+        "Price": 53,
+        "Summary": "UNLEASH YOUR INNER WARRIOR: The next generation in raw, plant-based protein is here, breaking through the constraints of other protein powders. Warrior Blend is an easily digestible, nutrient filled superfood perfect for anyone who wants to amplify their health and fitness.",
         "Ingredients": "Proprietary Protein Blend (Raw Organic Pea Protein, Raw Cranberry Protein, Raw Organic Hemp Seed Protein), Organic Vanilla Extract, Natural Fibers (Fenugreek, Konjac), Stevia, Ancient Sea Salt, Medium Chain Triglycerides, Herbal (Tea Leaf) Extract, Natural Citrus Extract, Organic Cinnamon Extract",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/61%2BfSVlU-jL._SX522_.jpg",
         "Type": "Pea"
@@ -100,6 +124,8 @@
         "Manufacturer": "Vega Sport",
         "Category": "Protein",
         "Product": "Performance Protein",
+        "Price": 52,
+        "Summary": "Next-level performance calls for clean, next-level protein. Build and repair strong muscles and reduce recovery time with help from Vega Sport Performance Protein. Featuring 30 grams of complete protein-made from premium plant-based ingredients, including pea, alfalfa, pumpkin seed and organic sunflower seed proteins-Vega Sport Performance Protein delivers a balanced, full-spectrum amino acid profile. Every delicious post-workout serving of Vega Sport Performance Protein powder boasts 6 grams of branched chain amino acids (BCAAs), 6 grams of glutamine, turmeric, tart cherry and probiotics. Enjoy Vega Sport Performance Protein within 45 minutes after your workout. Easy to make on-the-go shaken with ice-water or non-dairy milk, you can also add it as a protein supplement to your favorite smoothie recipe. Available in Vanilla, Chocolate, Mocha or Berry flavors.",
         "Ingredients": "Pea Protein, Organic Pumpkin Seed Protein, Organic Sunflower Seed Protein, Alfalfa Protein, Tart Cherry, Probiotics (Bacillus Coagulans [Provides 1 Billioin CFU/Serving]), Bromelain, Turmeric Extract, Black Pepper Extract, Contains less than 2% of: Strawberry Powder, Apple Powder, Beetroot Powder (for Color), Sea Salt, Natural Vanilla Flavor, Natural Berry Flavor, Citric Acid, Stevia Extract, Xanthan Gum.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/91ZVYcUYyEL._SY606_.jpg",
         "Type": "Pea"
@@ -108,6 +134,8 @@
         "Manufacturer": "MRM",
         "Category": "Protein",
         "Product": "100% All Natural Whey",
+        "Price": 41,
+        "Summary": "Despite old stereotypes that insist athletes cannot adequately perform and compete eating a plant-based diet, MRM Veggie Elite offers a true alternative to whey that enables both vegans and vegetarians the opportunity of peak performance without compromising commitment to diet. Now, athletes have a choice in a tasty, satisfying, plant-based protein that meets daily protein requirements.",
         "Ingredients": "NAT-PRO OPTIMIZER [Ultrafiltered, low temperature processed whey protein concentrate (milk), crossflow microfiltered whey protein isolate (milk), L-glutamine, sunflower lecithin & Digest-All® AP (a vegan enzyme blend)], cocoa, natural chocolate flavor, stevia leaf extract, carrageenan, salt and monk fruit extract.  Contains milk. This product is manufactured in a facility that produces other products that contain soy and egg.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/91oAjONGnBL._SY606_.jpg",
         "Type": "Whey"
@@ -116,6 +144,8 @@
         "Manufacturer": "Allmax Nutrition",
         "Category": "Protein",
         "Product": "IsoNatural Whey Protein Isolate",
+        "Price": 42,
+        "Summary": "IsoNatural is a pure whey protein isolate, with no flavour, no sugar, no sweetener and no colour added. Each serving contains 27 grams of protein, less than 1/2 gram of fat, less than 1 gram of carbohydrates and is virtually lactose free. IsoNatural whey protein isolate is derived from an ultra-low temperature micro-filtration process. The filtering of the whey protein through an ultra-low temperature allows for less denaturization of the protein and the mirco-filter process reduces bacteria growth. The combination of ultra-low temperature and micro-filtration permits an enhanced protein mirco fraction profile, providing the user with a higher bioavailable product. IsoNatural is an agglomerated protein isolate which enlarges particle size and increases flowability and solubility. This permits easy mixing when fruits or other ingredients are added. * Picture may be of different size or flavor",
         "Ingredients": "Whey Protein Isolate, Natural Flavors, Guar Gum, Lo Han Guo (Monk Fruit Extract), Stevia, NutraFlora®, Acerola Extract 4:1, Grape Seed Extract.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/61r5IQXvsAL._SY606_.jpg",
         "Type": "Whey"
@@ -124,6 +154,8 @@
         "Manufacturer": "Bulletproof",
         "Category": "Protein",
         "Product": "Whey Protein",
+        "Price": 40,
+        "Summary": "Are you tired of not having time to prepare healthy protein for your Bulletproof meals? Are you looking for a convenient way to pack pasture-raised Bulletproof foods when you travel? Are you looking for a way to strengthen immunity and grow more muscle? Upgraded Whey is the answer Upgraded Whey is the result of meticulous lab-testing and pure pasture-raised whey. The result of years of testing ways to upgrade of the purest pasture-raised whey on earth. Why Upgraded Whey Is Your Secret Weapon Whey Protein with added Colostrum is minimally processed to keep the integrity and quality of the protein. Colostrum is added to support the health of our immune system, which is easily affected by stressors in our daily lives. Whey Protein helps supplement necessary amino acids to help repair our bodies. Upgraded Whey is tested for heavy metals and environmental toxins What makes Upgraded Whey different It's Bulletproof. We live this stuff every day because we love it, and it's made for our own use. Integrity matters. We optimize every decision possible when we make something. The cows that made the milk source of the whey come from herds that graze year round on pesticide and chemical free natural grass pastures. The cows are never fed grain or any genetically modified organisms, and they are not exposed to growth hormone treatment, chemicals, antibiotics, or injected pathogens. The native whey protein concentrate in Upgraded Whey helps maintain the fragile immune boosting components naturally present in fresh milk. It is made from fresh milk, unlike most whey products, which are obtained from a waste product of cheese manufacturing. We use proprietary filtration and drying which involves minimal processing to ensure the whey is not subjected to unsafe temperatures that would destroy the original protein components. This whey is not micro filtered, hydrolyzed, cross-flow filtered, or ion exchanged - all methods that denature the original proteins.",
         "Ingredients": "Proserum whey protein concentrate, bovine colostrum, medium chain triglycerides, tapioca dextrin, tapioca",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/816UIByYDWL._SY606_.jpg",
         "Type": "Whey"
@@ -132,6 +164,8 @@
         "Manufacturer": "Nature's Best",
         "Category": "Protein",
         "Product": "Zero Carb Isopure",
+        "Price": 38,
+        "Summary": "Pack in powerfully pure protein, without packing on the carbs. Our 100% whey protein isolate powders amp you up, without any unwanted weight. Just pick your level: Zero Carb or Low-Carb (which also has Zero sugar), both with a whopping 50 grams of protein. It's 100% whey protein isolate loaded with vitamins, minerals and nutrients to keep you going strong—and always without gluten, lactose, or any impurities. Made with our complete microfiltration process to be the only completely clear milk protein when dissolved in water. Available in a range of delicious flavors to mix up some seriously delicious and dynamic recipes.",
         "Ingredients": "Ion Exchange Whey [Milk] Protein Isolate, Microfiltered Whey [Milk] Protein Isolate, Vitamin/Mineral/, Amino Acid Blend, (Taurine, Potassium [As Potassium Chloride], Chloride [As Potassium And Sodium Chloride], Calcium [As Dicalcium Phosphate Dihydrate], Phosphorus [As Dicalcium Phosphate Dihydrate], L-Glutamine, Magnesium [As Magnesium Oxide], Vitamin C [As Ascorbic Acid], Vitamin E [As DL-Alpha Tocopheryl Acetate], Niacin, Zinc [As Zinc Sulfate Dihydrate], Vitamin A [As Palmitate], Pantothenic Acid [As D-Calcium Pantothenate], Vitamin B6 [As Pyridoxine Hydrochloride], Copper [As Amino Acid Chelate], Manganese [As Manganese Sulfate Dihydrate], Riboflavin, Thiamin [As Thiamin Hydrochloride], Folic Acid, Biotin, Iodide [As Potassium Iodide], Chromium [As Amino Acid Chelate], Vitamin K, Molybdenum [As Amino Acid Chelate], Selenium [As Amino Acid Chelate], Vitamin B12), Soy Lecithin, Natural And Artificial Flavors, Xanthan Gum, Sucralose.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/81ygQdrUmYL._SY606_.jpg",
         "Type": "Whey"
@@ -140,6 +174,8 @@
         "Manufacturer": "Dymatize",
         "Category": "Protein",
         "Product": "ISO-100",
+        "Price": 37,
+        "Summary": "Dymatize ISO 100 derives its name from its protein source, 100% Whey Protein Isolate. Dymatize Nutrition's Whey Protein Isolate has been processed to the zenith of perfection, 100% hydrolyzed and instantized and taken through no less than 5 quality controlled steps. Both lactose and fat have been removed from ISO 100, leaving you with nothing but the most easily digested, assimilated and most bio available source of protein on the market.",
         "Ingredients": "Hydrolyzed Whey Protein Isolates, Natural and Artificial Flavors, Salt, Sucralose, Stevia Leaf Extract.",
         "Image": "https://images-na.ssl-images-amazon.com/images/I/81-WSnD0HlL._SY606_.jpg",
         "Type": "Whey"
@@ -148,6 +184,8 @@
         "Manufacturer": "Six Star Pro Nutrition",
         "Category": "Protein",
         "Product": "Whey Isolate Plus Protein",
+        "Price": 41,
+        "Summary": "High-Quality Whey Protein Formula\nCore Ingredients Scientifically Superior to Regular Whey Protein\nTest Subjects Built 4x the Muscle and 2x the Strength\nPerfect for Before and After Your Workouts\nDelivers BCAAs and Glutamine, Plus an Added Muscle",
         "Ingredients": "Protein Isolate Plus Blend [(Whey Protein Isolate, 97% Whey Protein Isolate, Whey Protein Isolate Peptides, L-Leucine, L-Isoleucine, L-Valine, L-Glutamine, Glutamine Peptides), Premium Taste Blend (Cocoa Powder [Processed with Alkali], Natural And Artificial Flavor, Calcium Carbonate, Silicon Dioxide, Soy Lecithin, Gum Blend [Cellulose Gum, Xanthan Gum, Carrageenan], Papain, Amylase, Sucralose, Acesulfame-Potassium)], Isolated Soy Protein",
         "Image": "https://store.bbcomcdn.com/images/store/prodimage/prod_prod270026/image_prodprod270026_largeImage_X_450_white.jpg",
         "Type": "Whey"
@@ -156,6 +194,8 @@
         "Manufacturer": "Pure Protein",
         "Category": "Protein",
         "Product": "Natural Whey Protein",
+        "Price": 51,
+        "Summary": "Pure Protein Shakes were developed as a great-tasting way to supplement your protein needs, and provide you with a healthy pre- and post-workout option. Protein is essential for optimal body function, strength, muscle tone and lean body mass, and with this delicious and convenient RTD, protein never tasted so good! This Vanilla Cream shake provides you with 35 grams of protein, 2 grams of carbs, and an excellent source of calcium.",
         "Ingredients": "Protein Blend (Whey Protein Concentrate, Whey Protein Isolate), Fructose, Natural Flavors, Soy Lecithin, Stevia Extract.",
         "Image": "http://www.pureprotein.com/~/media/pureprotein/product-catalog/products/natural-whey-french-vanilla-16lbs/naturalwheypowderfrenchvanilla.ashx",
         "Type": "Whey"
@@ -164,6 +204,8 @@
         "Manufacturer": "MusclePharm",
         "Category": "Protein",
         "Product": "Casein",
+        "Price": 48,
+        "Summary": "Feed your muscles for up to 8 hours\nOfficial nutritional supplement provider of the UFC®\nAdvanced time-released protein powder",
         "Ingredients": "Micellar Casein, Cocoa Powder, Natural & Artificial Flavors, Inulin, Sea Salt, Guar Gum, Xanthan Gum, Cellulose Gum, Acesulfame Potassium, Sucralose, Enzyme Blend (Protease, Lactase).",
         "Image": "https://store.bbcomcdn.com/images/store/prodimage/prod_prod2200008/image_prodprod2200008_largeImage_X_450_white.jpg",
         "Type": "Casein"

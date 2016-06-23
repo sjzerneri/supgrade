@@ -13,7 +13,7 @@
         .controller('Product', Product);
 
     /* @ngInject */
-    function Product($http, product,$state,$stateParams) {
+    function Product($http, product, $state, $stateParams) {
         var vm = this;
 
         vm.Product_id = $stateParams.Product_id;
@@ -34,14 +34,20 @@
 
         vm.items = [];
 
+        console.log("Items Added To Cart: " + vm.items);
+
         function addToCart() {
 
-            console.log('test');
-            $state.go('home.cart');
-            vm.items.push({
-                item: 'Test Item'
+            product.productDetails(vm.Product_id).then(function(response) {
+                vm.productDetail = response
+                console.log(response);
+                vm.itemToAdd = response.Manufacturer;
+                return vm.itemToAdd;
+
             });
-            console.log(vm.items);
+            
+            $state.go('home.cart');
+
         };
     };
 }());
