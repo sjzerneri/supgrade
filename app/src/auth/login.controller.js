@@ -28,7 +28,8 @@
          * My Description rules
          */
         function submit(email, password) {
-            auth.login(email, password).then(function () {
+            auth.login(email, password).then(function (res) {
+                
                 console.log('function successfully run');
             });
         }

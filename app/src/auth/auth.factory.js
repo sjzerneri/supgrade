@@ -13,7 +13,7 @@
         .factory('auth', auth);
 
     /* @ngInject */
-    function auth($q) {
+    function auth($q, $http) {
         return {
             login: login
         };
@@ -33,7 +33,11 @@
          */
 
         function login(email, password) {
-            return $q.when();
+            return $http.post('/api/users/authenticate',
+            {
+                'username': email,
+                'password': password
+            });
         }
     }
 

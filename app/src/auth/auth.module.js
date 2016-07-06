@@ -9,7 +9,7 @@
     'use strict';
 
     angular
-        .module('app.auth', ['angular-storage'])
+        .module('app.auth', ['LocalStorageModule'])
         .config(configuration);
 
     /* @ngInject */
@@ -31,7 +31,7 @@
             .state('home.account', {
                 url: '/account',
                 templateUrl: 'src/auth/account.html',
-                controller: 'Signup',
+                controller: 'Account',
                 controllerAs: 'vm'
             })
             //add your state mappings here

@@ -10,16 +10,14 @@
 
     angular
         .module('app.auth')
-        .controller('Signup', Signup);
+        .controller('Signup', ['$http', '$state', 'UserData', 'localStorageService', Signup]);
 
     /* @ngInject */
-    function Signup($state) {
+    function Signup($http, $state, UserData, localStorageService) {
         var vm = this;
-
         vm.submit = submit;
-
         /////////////////////
-
+        
         /**
          * @ngdoc method
          * @name testFunction
@@ -31,9 +29,22 @@
 
         function submit(fname, lname, email, password) {
 
-            console.log(vm.fname);
+            var data = {
+                'firstname' : fname,
+                'lastname' : lname,
+                'username': email,
+                'password': password
+            };
+            $http.post('/api/users/register',data).then(function() {
+                localStorageService.set('authinfo', data);
+                $http.post('/emailverify', {
+                    'email': email
+                });
+                $state.go('home.account');
+            }, function() {
 
-            $state.go('home.account');
+            });
+            
         }
     }
 }());

@@ -2,6 +2,8 @@
 logs
 *.log
 
+.idea
+
 # Dependency directory
 node_modules/
 app/bower_components/
