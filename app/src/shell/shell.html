@@ -1,46 +1,48 @@
 <div class="container-fluid">
-    <div class="menu-wrapper">
-        <a href="#" class="close-menu visible-xs"><i class="icon-close"></i></a>
-        <h3 class="visible-xs">Navigation</h3>
-        <ul class="nav-list text-center effect">
-            <li class="active"><a href="#/home/catalog">Shop</a></li>
-            <li><a href="#/home/login">Login</a></li>
-        </ul>
-    </div>
+  <div class="menu-wrapper">
+    <a href="#" class="close-menu visible-xs"><i class="icon-close"></i></a>
+    <h3 class="visible-xs">Navigation</h3>
+    <ul class="nav-list text-center effect">
+      <li class="active"><a href="#/home/catalog">Shop</a></li>
+      <li ng-hide="islogin"><a href="#/home/login">Login</a></li>
+      <li ng-hide="!islogin"><a ng-click="logout()" href="#">Logout</a></li>
+    </ul>
+  </div>
 </div>
 
 <div id="wrap">
-    <div id="main-nav" class="">
-        <div class="container-fluid">
-            <div class="nav-header">
-                <a href="#/home" class="nav-brand">Inside <span> Scoop</span></a>
-                <a class="nav-icon pull-right visible-xs menu-link" href="#"><i class="icon-menu2"></i></a>
-                <a class="nav-icon-outline cart pull-right" href="#/home/cart"><i class="icon-cart"></i><span class="badge">3</span></a>
-            </div>
-        </div>
+  <div id="main-nav" class="">
+    <div class="container-fluid">
+      <div class="nav-header">
+        <a href="#/home" class="nav-brand">Inside <span> Scoop</span></a>
+        <a class="nav-icon pull-right visible-xs menu-link" href="#"><i class="icon-menu2"></i></a>
+        <a class="nav-icon-outline cart pull-right" href="#/home/cart"><i class="icon-cart"></i><span
+          class="badge">3</span></a>
+      </div>
     </div>
+  </div>
 
-    <div ui-view></div>
+  <div ui-view></div>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="pull-left copyright">
-                <p>ITS &copy; 2016, A Stoic Company.</p>
-                <ul class="nav-list effect">
-                    <li><a href="#/home/about">About</a></li>
-                    <li><a href="#/home/terms-conditions">Terms</a></li>
-                    <li><a href="#/home/privacy">Privacy</a></li>
-                    <li><a href="#/home/blog">Blog</a></li>
-                    <li><a href="#/home/contact">Contact</a></li>
-                </ul>
-            </div>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="pull-left copyright">
+        <p>ITS &copy; 2016, A Stoic Company.</p>
+        <ul class="nav-list effect">
+          <li><a href="#/home/about">About</a></li>
+          <li><a href="#/home/terms-conditions">Terms</a></li>
+          <li><a href="#/home/privacy">Privacy</a></li>
+          <li><a href="#/home/blog">Blog</a></li>
+          <li><a href="#/home/contact">Contact</a></li>
+        </ul>
+      </div>
 
-            <div class="pull-right copyright">
-                <ul class="social-links">
-                    <li><a href="https://twitter.com/angelo_studio"><i class="icon-twitter"></i></a></li>
-                    <li><a href="http://dribbble.com/angelo_studio"><i class="icon-dribbble"></i></a></li>
-                    <li><a href="http://www.pinterest.com/angelostudio/"><i class="icon-pinterest"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+      <div class="pull-right copyright">
+        <ul class="social-links">
+          <li><a href="https://twitter.com/angelo_studio"><i class="icon-twitter"></i></a></li>
+          <li><a href="http://dribbble.com/angelo_studio"><i class="icon-dribbble"></i></a></li>
+          <li><a href="http://www.pinterest.com/angelostudio/"><i class="icon-pinterest"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>

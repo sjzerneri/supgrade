@@ -6,42 +6,48 @@
 
 (function () {
 
-    'use strict';
+  'use strict';
 
-    angular
-        .module('app.auth', ['LocalStorageModule'])
-        .config(configuration);
+  angular
+    .module('app.auth', ['LocalStorageModule'])
+    .config(configuration);
 
-    /* @ngInject */
-    function configuration($stateProvider) {
+  /* @ngInject */
+  function configuration($stateProvider) {
 
-        $stateProvider
-            .state('home.signup', {
-                url: '/signup',
-                templateUrl: 'src/auth/signup.html',
-                controller: 'Signup',
-                controllerAs: 'vm'
-            })
-            .state('home.login', {
-                url: '/login',
-                templateUrl: 'src/auth/login.html',
-                controller: 'Login',
-                controllerAs: 'vm'
-            })
-            .state('home.account', {
-                url: '/account',
-                templateUrl: 'src/auth/account.html',
-                controller: 'Account',
-                controllerAs: 'vm'
-            })
-            //add your state mappings here
-            //$stateProvider
-            //  .state('Welcome', {
-            //    url:'/welcome',
-            //    templateUrl:'src/welcome/welcome.html',
-            //    controller: 'WelcomeCtrl as vm'
-            //  }
-            //);
-    }
+    $stateProvider
+      .state('home.signup', {
+        url: '/signup',
+        templateUrl: 'src/auth/signup.html',
+        controller: 'Signup',
+        controllerAs: 'vm'
+      })
+      .state('home.login', {
+        url: '/login',
+        templateUrl: 'src/auth/login.html',
+        controller: 'Login',
+        controllerAs: 'vm'
+      })
+      .state('home.account', {
+        url: '/account',
+        templateUrl: 'src/auth/account.html',
+        controller: 'Account',
+        controllerAs: 'vm'
+      })
+      .state('home.resetpw', {
+        url: '/resetpw',
+        templateUrl: 'src/auth/resetpw.html',
+        controller: 'Resetpw',
+        controllerAs: 'vm'
+      })
+    //add your state mappings here
+    //$stateProvider
+    //  .state('Welcome', {
+    //    url:'/welcome',
+    //    templateUrl:'src/welcome/welcome.html',
+    //    controller: 'WelcomeCtrl as vm'
+    //  }
+    //);
+  }
 
 }());

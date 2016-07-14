@@ -1,12 +1,19 @@
-﻿var express = require('express');
+/**
+ * Created by administrator on 7/9/16.
+ */
+var express = require('express');
 var router = express.Router();
 var request = require('request');
 var config = require('config.json');
 
-router.post('/', function (req, res) {
+router.get('/', function (req, res) {
+  res.render('register');
+});
+
+router.put('/', function (req, res) {
   // register using api to maintain clean separation between layers
-  request.post({
-    url: config.apiUrl + '/users/register',
+  request.put({
+    url: config.apiUrl + '/users/:_id',
     form: req.body,
     json: true
   }, function (error, response, body) {
@@ -22,7 +29,6 @@ router.post('/', function (req, res) {
         email: req.body.email
       });
     }
-    res.send({success: 'Registraton successful'});
   });
 });
 

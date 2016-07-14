@@ -6,19 +6,19 @@
 
 (function () {
 
-    'use strict';
+  'use strict';
 
-    angular.module('app', [
+  angular.module('app', [
     'app.core',
     'app.common',
-  /**
-   * Application modules
-   **/
+    /**
+     * Application modules
+     **/
     'app.shell',
     'app.catalog',
     'app.wizard',
     'app.checkout',
     'app.auth'
-  ]);
+  ]).config().run();
 
 }());

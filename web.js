@@ -20,6 +20,9 @@ app.use('/api', expressJwt({ secret: config.secret }).unless({ path: ['/api/user
 // routes
 app.use('/app', require('./controllers/app.controller'));
 app.use('/api/users', require('./controllers/api/users.controller'));
+app.use('/login', require('./controllers/login.controller'));
+app.use('/register', require('./controllers/register.controller'));
+app.use('/resetpw', require('./controllers/resetpw.controller'));
 app.use('/emailverify', require('./controllers/email.verify.controller'));
 
 //app.use(express.logger('dev'));
