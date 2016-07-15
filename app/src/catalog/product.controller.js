@@ -85,6 +85,9 @@
       if (!$scope.auth.isLogin) {
         $state.go('home.login', {redirectUrl: $state.current.name});
       }
+      else {
+        $state.go('home.checkout');
+      }
     }
   };
 }());

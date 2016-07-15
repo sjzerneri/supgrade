@@ -14,15 +14,13 @@
 
   /* @ngInject */
   function configuration($stateProvider){
-
-    //add your state mappings here
-    //$stateProvider
-    //  .state('Welcome', {
-    //    url:'/welcome',
-    //    templateUrl:'src/welcome/welcome.html',
-    //    controller: 'WelcomeCtrl as vm'
-    //  }
-    //);
+    $stateProvider
+      .state('home.checkout', {
+        url: '/checkout',
+        templateUrl: 'src/checkout/checkout.html',
+        controller: 'Checkout',
+        controllerAs: 'vm'
+      })
   }
 
 }());

@@ -10,10 +10,10 @@
 
   angular
     .module('app.auth')
-    .controller('Signup', ['$http', '$state', 'localStorageService', '$stateParams', 'auth', Signup]);
+    .controller('Signup', ['$http', '$state', 'localStorageService', '$stateParams', 'auth', '$scope', Signup]);
 
   /* @ngInject */
-  function Signup($http, $state, localStorageService, $stateParams, auth) {
+  function Signup($http, $state, localStorageService, $stateParams, auth, $scope) {
     var vm = this;
     vm.submit = submit;
     /////////////////////

@@ -22,7 +22,7 @@
         controller: 'Signup',
         controllerAs: 'vm',
         params: {
-          redirectUrl: null
+          redirectUrl: ''
         }
       })
       .state('home.login', {
@@ -31,7 +31,7 @@
         controller: 'Login',
         controllerAs: 'vm',
         params: {
-          redirectUrl: null
+          redirectUrl: 'home.account'
         }
       })
       .state('home.account', {

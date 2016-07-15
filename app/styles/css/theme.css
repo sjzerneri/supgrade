@@ -115,10 +115,6 @@ a:focus {
     height: 44px;
 }
 
-.myform .form-group label {
-    display: none;
-}
-
 .myform .form-control {
     display: inline;
     background: transparent;

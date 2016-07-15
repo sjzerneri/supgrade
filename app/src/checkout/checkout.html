@@ -1,4 +1,27 @@
-<p ng-bind="vm.cart"></p>
+<div class="container-fluid cart-list">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <form name="login" novalidate class="myform">
 
+        <h2 class="text-center">Set Informations</h2>
+        <!-- <h3 class="text-center">Login to shop</h3> -->
 
-<button ui-sref="checkout2"> Continue to next step </button>
+        <div class="form-group">
+          <label class="control-label">Credit Card Info</label>
+          <input name="cardnumber" placeholder="Card Number" class="form-control" type="number" ng-model="vm.cardNumber">
+          <input name="cvccode" placeholder="CVC Code" class="form-control" type="number" ng-model="vm.cvcCode" ng-maxlength="3">
+        </div>
+        <div class="form-group">
+          <label class="control-label">Expiration Date</label>
+          <input name="expirationMonth" placeholder="MM" class="form-control" type="number" ng-maxlength="2" ng-model="vm.month">
+          <input name="expirationYear" placeholder="YYYY" class="form-control" type="number" ng-maxlength="2" ng-model="vm.year">
+        </div>
+
+        <div class="submit-payment">
+          <button ng-click="vm.submitPayment()" class="btn btn-right">Submit Payment</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
