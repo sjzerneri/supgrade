@@ -19,6 +19,6 @@
     'app.wizard',
     'app.checkout',
     'app.auth'
-  ]).config().run();
+  ]);
 
 }());

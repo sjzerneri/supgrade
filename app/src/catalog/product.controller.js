@@ -13,7 +13,7 @@
     .controller('Product', Product);
 
   /* @ngInject */
-  function Product($http, product, $state, $stateParams) {
+  function Product($http, product, $state, $stateParams, $scope) {
     var vm = this;
 
     vm.Product_id = $stateParams.Product_id;
@@ -32,23 +32,51 @@
 
     vm.addToCart = addToCart;
 
-    vm.items = [];
+    vm.items = $scope.cartDetail.data;
+
+    vm.total = total;
+
+    vm.removeCartItem = removeCartItem;
 
     console.log("Items Added To Cart: " + vm.items);
 
     function addToCart() {
-
-      product.productDetails(vm.Product_id).then(function (response) {
-        vm.productDetail = response;
-        console.log(response);
-        vm.itemToAdd = response.Manufacturer;
-        vm.items += [vm.itemToAdd, ];
-        return vm.itemToAdd;
-
-      });
+      var isExist = false;
+      for (var i = 0; i < vm.items.length; i++) {
+        if (vm.items[i].Product_id == vm.Product_id) {
+          isExist = true;
+          break;
+        }
+      }
+      if (!isExist) {
+        product.productDetails(vm.Product_id).then(function (response) {
+          vm.productDetail = response;
+          var item = response;
+          item.Quantity = 1;
+          console.log(response);
+          vm.itemToAdd = response.Manufacturer;
+          $scope.cartDetail.data.push(item);
+          console.log($scope.cartDetail.data)
+          $scope.cartDetail.quantity = $scope.cartDetail.data.length;
+          return vm.itemToAdd;
+        });
+      }
 
       $state.go('home.cart');
 
     };
+
+    function removeCartItem(index) {
+      $scope.cartDetail.data.splice(index, 1);
+    }
+
+    function total() {
+      var totalPrice = 0;
+      for (var i = 0;i < vm.items.length;i ++) {
+        totalPrice += vm.items[i].Price * vm.items[i].Quantity;
+      }
+
+      return totalPrice;
+    }
   };
 }());

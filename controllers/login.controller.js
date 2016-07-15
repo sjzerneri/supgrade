@@ -27,8 +27,7 @@ router.post('/', function (req, res) {
     }
 
     if (!body.token) {
-      // return res.send({error: 'Username or password is incorrect', email: req.body.email});
-      return res.status(401);
+      return res.send({error: 'Username or password is incorrect', email: req.body.email});
     }
 
     // save JWT token in the session to make it available to the angular app

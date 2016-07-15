@@ -7,19 +7,42 @@
 </div>
 <div class="container-fluid cart-list">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12">
       <table class="table">
         <thead>
           <tr>
-            <th>Item</th>
-            <th></th>
+            <th>Product Image</th>
+            <th>Product Information </th>
+            <th>Quantity</th>
+            <th><span class="icon-close"></span> </th>
           </tr>
         </thead>
         <tbody>
-          <tr ng:repeat="item in vm.items">
-            <td class="vert-align"><a href="{{ item.url }}.html">{{ item.title }}</a></td>
+          <tr ng:repeat="(index, item) in cartDetail.data">
+            <td class="vert-align">
+              <a href="{{ '/#/home/product-detail/' +  item.Product_id}}">
+                <img ng-src="{{item.Image}}" width="130" height="200">
+              </a>
+            </td>
+            <td class="vert-align">
+              <h3><a href="{{ '/#/home/product-detail/' +  item.Product_id}}">{{item.Product}}</a></h3>
+              <p>
+                {{item.Summary}}
+              </p>
+              <p>
+                Price: {{item.Price}}
+              </p>
+            </td>
+            <td class="vert-align">
+              <input ng-model="item.Quantity" type="number" min="1">
+            </td>
+            <td class="vert-align">
+              <button ng-click="vm.removeCartItem(index)" type="button" style="border: 0; background: transparent;">
+                <i class="icon-close"></i>
+              </button>
+            </td>
           </tr>
-          <tr ng-if="total() == 0">
+          <tr ng-if="vm.total() == 0">
             <td colspan="5">
               <h2 class="text-center">Your cart is empty.</h2>
             </td>
@@ -32,7 +55,7 @@
         customers with international billing addresses shipping to U.S. addresses.
       </p>
     </div>
-    <div class="col-sm-4 " ng-if="total() > 0">
+    <div class="col-sm-4 " ng-if="vm.total() > 0">
       <table class="table">
         <thead>
         <tr>
@@ -43,7 +66,7 @@
         <tr>
           <td>Sub total:</td>
           <td></td>
-          <td class="text-right"><b>{{ total() | currency }}</b></td>
+          <td class="text-right"><b>{{ vm.total() | currency }}</b></td>
         </tr>
         <tr>
           <td>Shipping cost:</td>
@@ -58,7 +81,7 @@
         <tr>
           <td>Total:</td>
           <td></td>
-          <td id="total" class="text-right">{{ total() + shiping() + tax | currency }}</td>
+          <td id="total" class="text-right">{{ vm.total() + shiping() + tax | currency }}</td>
         </tr>
         </tbody>
       </table>

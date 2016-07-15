@@ -13,12 +13,18 @@
     .controller('Home',  Home);
 
   /* @ngInject */
-  function Home($location, $http, $rootScope) {
+  function Home($location, $http, $rootScope, $scope) {
     var vm = this;
 
     vm.testFunction = testFunction;
+
+
+    $scope.cartDetail = {
+      quantity: 0,
+      data: []
+    };
     /////////////////////
-    
+
     /**
      * @ngdoc method
      * @name testFunction

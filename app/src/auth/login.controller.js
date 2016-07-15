@@ -19,7 +19,7 @@
     vm.submit = submit;
     vm.reset_password = true;
     /////////////////////
-    $rootScope.logout = auth.logout; routeparam
+    $rootScope.logout = auth.logout;
     /**
      * @ngdoc method
      * @name testFunction
@@ -40,8 +40,6 @@
           $rootScope.islogin = true;
           $state.go('home.account');
         }
-      }, function () {
-
       });
     }
   }
