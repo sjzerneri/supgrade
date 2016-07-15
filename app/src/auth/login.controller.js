@@ -10,16 +10,16 @@
 
   angular
     .module('app.auth')
-    .controller('Login', ['$state', 'auth', '$rootScope', Login]);
+    .controller('Login', ['$state', 'auth', '$scope', Login]);
 
   /* @ngInject */
-  function Login($state, auth, $rootScope) {
+  function Login($state, auth, $scope) {
     var vm = this;
 
     vm.submit = submit;
     vm.reset_password = true;
     /////////////////////
-    $rootScope.logout = auth.logout;
+
     /**
      * @ngdoc method
      * @name testFunction
@@ -37,7 +37,7 @@
           vm.reset_password = false;
         }
         else {
-          $rootScope.islogin = true;
+          $scope.auth.isLogin = true;
           $state.go('home.account');
         }
       });

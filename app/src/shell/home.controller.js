@@ -13,7 +13,7 @@
     .controller('Home',  Home);
 
   /* @ngInject */
-  function Home($location, $http, $rootScope, $scope) {
+  function Home($location, $http, $scope, $state) {
     var vm = this;
 
     vm.testFunction = testFunction;
@@ -23,6 +23,12 @@
       quantity: 0,
       data: []
     };
+
+    $scope.auth = {
+      isLogin: false
+    };
+
+    vm.logout = logout;
     /////////////////////
 
     /**
@@ -35,6 +41,11 @@
      */
     function testFunction(num) {
       console.info('This is a test function');
+    }
+
+    function logout() {
+      $scope.auth.isLogin = false;
+      $state.go('home.login');
     }
   }
 

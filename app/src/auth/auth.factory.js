@@ -13,15 +13,13 @@
     .factory('auth', auth);
 
   /* @ngInject */
-  function auth($q, $http, $rootScope, $state) {
-    $rootScope.isPageLoading = true;
-    var userInfo = {};
+  function auth($q, $http, $state) {
+
     // 1. read token ( or cookie )
     // 2. access server to get user's info
-        $rootScope.isPageLoading = false;
+
 
     return {
-      isLoggedIn: false,
       login: login
     };
     ////////////////////
@@ -41,7 +39,7 @@
      */
 
     function login(email, password) {
-      $rootScope.logout = logout;
+
       return $http.post('/login',
         {
           'email': email,
@@ -49,15 +47,6 @@
         });
     }
 
-    function logout() {
-
-      $http.get('/login', {}).then( function(res) {
-        if (res.data.success) {
-          $state.go('home.login');
-          $rootScope.islogin = false;
-        }
-      });
-    }
   }
 
 }());
