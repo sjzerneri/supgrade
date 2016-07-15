@@ -115,6 +115,14 @@ a:focus {
     height: 44px;
 }
 
+.checkoutInfoForm input[type=number]::-webkit-inner-spin-button,
+.checkoutInfoForm input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  display: none !important;
+  visibility: hidden !important;
+  margin: 0;
+}
+
 .myform .form-control {
     display: inline;
     background: transparent;
