@@ -17,7 +17,7 @@
 
     $stateProvider
       .state('home.signup', {
-        url: '/signup',
+        url: '/signup/:redirectUrl',
         templateUrl: 'src/auth/signup.html',
         controller: 'Signup',
         controllerAs: 'vm',

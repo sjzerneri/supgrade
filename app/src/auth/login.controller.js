@@ -19,7 +19,7 @@
     vm.submit = submit;
     vm.reset_password = true;
     /////////////////////
-
+    $scope.redirectUrl = $stateParams.redirectUrl;
     /**
      * @ngdoc method
      * @name testFunction
@@ -38,7 +38,7 @@
         }
         else {
           $scope.auth.isLogin = true;
-          $state.go($stateParams.redirectUrl);
+          $state.go($scope.redirectUrl);
         }
       });
     }

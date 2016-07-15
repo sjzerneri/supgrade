@@ -10,10 +10,10 @@
 
   angular
     .module('app.auth')
-    .controller('Signup', ['$http', '$state', 'UserData', 'localStorageService', Signup]);
+    .controller('Signup', ['$http', '$state', 'localStorageService', '$stateParams', 'auth', Signup]);
 
   /* @ngInject */
-  function Signup($http, $state, UserData, localStorageService) {
+  function Signup($http, $state, localStorageService, $stateParams, auth) {
     var vm = this;
     vm.submit = submit;
     /////////////////////
@@ -46,7 +46,8 @@
               alert(res.data.error);
             }
             else {
-              $state.go('home.account');
+              $scope.auth.isLogin = true;
+              $state.go($stateParams.redirectUrl);
             }
           });
         }
