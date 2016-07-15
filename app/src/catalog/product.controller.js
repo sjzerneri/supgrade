@@ -36,6 +36,8 @@
 
     vm.total = total;
 
+    vm.checkout = checkout;
+
     vm.removeCartItem = removeCartItem;
 
     console.log("Items Added To Cart: " + vm.items);
@@ -77,6 +79,12 @@
       }
 
       return totalPrice;
+    }
+
+    function checkout() {
+      if (!$scope.auth.isLogin) {
+        $state.go('home.login', {redirectUrl: $state.current.name});
+      }
     }
   };
 }());

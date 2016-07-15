@@ -45,7 +45,7 @@
 
     function logout() {
       $scope.auth.isLogin = false;
-      $state.go('home.login');
+      $state.go('home.login', 'home.account');
     }
   }
 

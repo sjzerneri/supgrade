@@ -20,13 +20,19 @@
         url: '/signup',
         templateUrl: 'src/auth/signup.html',
         controller: 'Signup',
-        controllerAs: 'vm'
+        controllerAs: 'vm',
+        params: {
+          redirectUrl: null
+        }
       })
       .state('home.login', {
         url: '/login',
         templateUrl: 'src/auth/login.html',
         controller: 'Login',
-        controllerAs: 'vm'
+        controllerAs: 'vm',
+        params: {
+          redirectUrl: null
+        }
       })
       .state('home.account', {
         url: '/account',

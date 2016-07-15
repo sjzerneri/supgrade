@@ -10,10 +10,10 @@
 
   angular
     .module('app.auth')
-    .controller('Login', ['$state', 'auth', '$scope', Login]);
+    .controller('Login',  Login);
 
   /* @ngInject */
-  function Login($state, auth, $scope) {
+  function Login($state, auth, $scope, $stateParams) {
     var vm = this;
 
     vm.submit = submit;
@@ -38,7 +38,7 @@
         }
         else {
           $scope.auth.isLogin = true;
-          $state.go('home.account');
+          $state.go($stateParams.redirectUrl);
         }
       });
     }
