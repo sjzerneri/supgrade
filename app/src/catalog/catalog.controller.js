@@ -16,7 +16,7 @@
 	function Catalog(product){
 		var vm = this;
 
-		product.productBatch().then(function(response) {
+    product.productBatch().then(function(response) {
             vm.products = response.data.productInfo;
             console.log(vm.products);
         });

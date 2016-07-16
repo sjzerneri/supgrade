@@ -21,7 +21,8 @@
 
     $scope.cartDetail = {
       quantity: 0,
-      data: []
+      data: [],
+      amount: 0
     };
 
     $scope.auth = {

@@ -55,7 +55,7 @@
         customers with international billing addresses shipping to U.S. addresses.
       </p>
     </div>
-    <div class="col-sm-4 " ng-if="vm.total() > 0">
+    <div class="col-sm-4 " ng-if="cartDetail.amount > 0">
       <table class="table">
         <thead>
         <tr>
@@ -66,7 +66,7 @@
         <tr>
           <td>Sub total:</td>
           <td></td>
-          <td class="text-right"><b>{{ vm.total() | currency }}</b></td>
+          <td class="text-right"><b>{{ cartDetail.amount | currency }}</b></td>
         </tr>
         <tr>
           <td>Shipping cost:</td>
@@ -81,7 +81,7 @@
         <tr>
           <td>Total:</td>
           <td></td>
-          <td id="total" class="text-right">{{ vm.total() + shiping() + tax | currency }}</td>
+          <td id="total" class="text-right">{{ cartDetail.amount + shiping() + tax | currency }}</td>
         </tr>
         </tbody>
       </table>

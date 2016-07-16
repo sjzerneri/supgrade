@@ -11,9 +11,25 @@
     .controller('Checkout', Checkout);
 
   /* @ngInject */
-  function Checkout(){
+  function Checkout($scope, $http){
     var vm = this;
-    
+
+    $scope.validateCardNumber = true;
+    $scope.stripeCallback = function (code, result) {
+      if (result.error) {
+        $scope.validateCardNumber= false;
+      } else {
+        $scope.validateCardNumber = true;
+        $http.post('/pay', {
+          stripeToken: result.id,
+          amount: $scope.cartDetail.amount
+        }).then(function() {
+
+        }, function() {
+
+        })
+      }
+    };
   }
 
 }());

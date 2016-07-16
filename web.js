@@ -24,6 +24,7 @@ app.use('/login', require('./controllers/login.controller'));
 app.use('/register', require('./controllers/register.controller'));
 app.use('/resetpw', require('./controllers/resetpw.controller'));
 app.use('/emailverify', require('./controllers/email.verify.controller'));
+app.use('/pay', require('./controllers/checkout.controller'));
 
 //app.use(express.logger('dev'));
 app.use(gzippo.staticGzip("" + __dirname + "/app"));

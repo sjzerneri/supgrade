@@ -1,27 +1,29 @@
 <div class="container-fluid cart-list">
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3">
-      <form name="checkoutInfo" novalidate class="checkoutInfoForm myform">
+      <form name="checkoutInfo" class="checkoutInfoForm myform" stripe-form="stripeCallback">
 
         <h2 class="text-center">Set Informations</h2>
         <!-- <h3 class="text-center">Login to shop</h3> -->
 
         <div class="form-group">
           <label class="control-label">Credit Card Info</label>
-          <input name="cardnumber" placeholder="Card Number" class="form-control" type="number" ng-model="vm.cardNumber">
-          <input name="cvccode" placeholder="CVC Code" class="form-control" type="number" ng-model="vm.cvcCode" ng-maxlength="3">
+          <input ng-model="number" placeholder="Card Number" payments-format="card" payments-validate="card" class="form-control"/>
+          <input ng-model="cvc" placeholder="CVC" payments-format="cvc" payments-validate="cvc" class="form-control"/>
         </div>
         <div class="form-group">
           <label class="control-label">Expiration Date</label>
-          <input name="expirationMonth" placeholder="MM" class="form-control" type="number" ng-maxlength="2" ng-model="vm.month">
-          <input name="expirationYear" placeholder="YYYY" class="form-control" type="number" ng-maxlength="2" ng-model="vm.year">
+          <input ng-model="expiry" placeholder="Expiration" payments-format="expiry" payments-validate="expiry" class="form-control"/>
         </div>
 
         <div class="submit-payment">
-          <button ng-click="vm.submitPayment()" class="btn btn-right">Submit Payment</button>
+          <button type="submit" class="btn btn-right">Submit Payment</button>
         </div>
       </form>
     </div>
   </div>
 </div>
+
+
+
 

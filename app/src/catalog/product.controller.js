@@ -28,7 +28,7 @@
     product.productDetails(vm.Product_id).then(function (response) {
       vm.productDetail = response;
       console.log(response);
-    })
+    });
 
     vm.addToCart = addToCart;
 
@@ -77,7 +77,7 @@
       for (var i = 0;i < vm.items.length;i ++) {
         totalPrice += vm.items[i].Price * vm.items[i].Quantity;
       }
-
+      $scope.cartDetail.amount = totalPrice;
       return totalPrice;
     }
 
