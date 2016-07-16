@@ -22,11 +22,11 @@
         $scope.validateCardNumber = true;
         $http.post('/pay', {
           stripeToken: result.id,
-          amount: $scope.cartDetail.amount
+          amount: $scope.cartDetail.amount * 100
         }).then(function() {
-
+          alert("Sucessfully");
         }, function() {
-
+          alert("Error");
         })
       }
     };

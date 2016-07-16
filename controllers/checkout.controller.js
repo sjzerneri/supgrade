@@ -17,7 +17,10 @@ router.post('/', function (req, res) {
     description: ""
   }, function(err, charge) {
     // asynchronously called
-    
+    if (err)
+      res.status(400).send({error: err});
+    else
+      res.send({success: charge});
   });
 
 });
