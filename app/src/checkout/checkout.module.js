@@ -15,7 +15,7 @@
   /* @ngInject */
   function configuration($stateProvider, $windowProvider){
     var $window = $windowProvider.$get();
-    $window.Stripe.setPublishableKey('pk_test_UhZQwsBhdCKgJ2gWhNqNDJyI');
+    $window.Stripe.setPublishableKey('pk_live_iUVtOTcO0uuRUuFEyS3nLNog');
     $stateProvider
       .state('home.checkout', {
         url: '/checkout',

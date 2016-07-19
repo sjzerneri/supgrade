@@ -5,7 +5,7 @@ var express = require('express');
 var router = express.Router();
 
 var stripe = require("stripe")(
-  "sk_test_HRbhxBVSvTIWiQn5zGcs3JvY"
+  "sk_live_gHZQTDrnzruI3OZuB6v7wJXV"
 );
 
 // make JWT token available to angular app
