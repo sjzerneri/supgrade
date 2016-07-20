@@ -18,15 +18,16 @@
     $scope.stripeCallback = function (code, result) {
       if (result.error) {
         $scope.validateCardNumber= false;
+        $scope.formError = result.error;
       } else {
         $scope.validateCardNumber = true;
         $http.post('/pay', {
           stripeToken: result.id,
           amount: $scope.cartDetail.amount * 100
-        }).then(function() {
-          alert("Sucessfully");
-        }, function() {
-          alert("Error");
+        }).then(function(sucess) {
+          alert("successfully")
+        }, function(err) {
+          alert(err.data.error.code);
         })
       }
     };

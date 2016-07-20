@@ -5,7 +5,9 @@
 
         <h2 class="text-center">Set Informations</h2>
         <!-- <h3 class="text-center">Login to shop</h3> -->
-
+        <p ng-hide="validateCardNumber" style="background-color: #942a25">
+          {{formError}}
+        </p>
         <div class="form-group">
           <label class="control-label">Credit Card Info</label>
           <input ng-model="number" placeholder="Card Number" payments-format="card" payments-validate="card" class="form-control"/>
